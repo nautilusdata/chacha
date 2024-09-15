@@ -1,0 +1,51 @@
+20240728_025500
+Se llevó a dos secciones el header, pero igual quedaron referenciadas 3.
+Título en strong desde html
+Logo a la izquierda
+
+También se cambió el  min-height y max-height por el espacio verde era muy alto arriba, comía mucha pantalla.
+/* Estilos generales para el encabezado */
+.header {
+  display: flex; /* Flexbox para distribuir los elementos */
+  min-height: 40px;
+  max-height: 80px;
+  background-color: #408601; /* Color de fondo de la barra superior */
+  justify-content: space-between; /* Espacio entre los elementos */
+  align-items: center; /* Centrar verticalmente los elementos */
+  padding: 10px 20px; /* Espacio interno */
+  color: white; /* Color del texto */
+}
+
+
+
+20240914_235600
+Se cambió el color de tarjetas de precio de blanco a verde (tipo .price__element BEST)
+
+/* ORIGINAL BLANCO
+.price__element {
+  background-color: #ddd;
+  text-align: center;
+  border-radius: 10px;
+  width: 330px;
+  padding: 40px;
+  --color-plan: #696871;
+  --color-price: #1D293F;
+  --bg-cta: #fff;
+  --color-cta: #1bb316;
+  --color-items: #696871;
+}*/
+
+
+.price__element {
+  background-color: #87af8e;
+  text-align: center;
+  border-radius: 10px;
+  width: 330px;
+  padding: 40px;
+  --color-plan: rgb(255 255 255 / 75%);
+  --color-price: #fff;
+  --bg-cta: #248a0a;
+  --color-cta: #fff;
+  --color-items: #fff;
+}
+
